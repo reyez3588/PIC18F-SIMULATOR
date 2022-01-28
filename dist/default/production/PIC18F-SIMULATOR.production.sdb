@@ -39,11 +39,11 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 /opt/microchip/xc8/v2.32/pic/sources/c99/common/Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"17 /home/reyez/Documents/mplabProjects/PIC18F57Q43-SIMULATOR.X/main.c
+"23 /home/reyez/Documents/mplabProjects/PIC18F-SIMULATOR/main.c
 [v _main main `(v  1 e 1 0 ]
-"26
-[v _init_uart init_uart `(v  1 e 1 0 ]
 "32
+[v _init_uart init_uart `(v  1 e 1 0 ]
+"38
 [v _putch putch `(v  1 e 1 0 ]
 "55 /opt/microchip/xc8/v2.32/pic/sources/c99/common/doprnt.c
 [v _flags flags `i  1 s 2 flags ]
@@ -118,10 +118,10 @@
 ]
 [u S137 . 1 `S119 1 . 1 0 `S128 1 . 1 0 ]
 [v _U1ERRIRbits U1ERRIRbits `VES137  1 e 1 @690 ]
-"17 /home/reyez/Documents/mplabProjects/PIC18F57Q43-SIMULATOR.X/main.c
+"23 /home/reyez/Documents/mplabProjects/PIC18F-SIMULATOR/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"23
+"29
 } 0
 "5 /opt/microchip/xc8/v2.32/pic/sources/c99/common/printf.c
 [v _printf printf `(i  1 e 2 0 ]
@@ -137,9 +137,9 @@
 {
 "1393
 [v vfprintf@cfmt cfmt `*.32uc  1 a 2 22 ]
-[s S649 _IO_FILE 0 ]
+[s S648 _IO_FILE 0 ]
 "1390
-[v vfprintf@fp fp `*.2S649  1 p 2 16 ]
+[v vfprintf@fp fp `*.2S648  1 p 2 16 ]
 [v vfprintf@fmt fmt `*.32Cuc  1 p 2 18 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 20 ]
 "1404
@@ -147,8 +147,8 @@
 "692
 [v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
 {
-[s S649 _IO_FILE 0 ]
-[v vfpfcnvrt@fp fp `*.2S649  1 p 2 10 ]
+[s S648 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.2S648  1 p 2 10 ]
 [v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 12 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 14 ]
 "1387
@@ -157,20 +157,20 @@
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 1 ]
-[s S632 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputc@fp fp `*.2S632  1 p 2 3 ]
+[s S631 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.2S631  1 p 2 3 ]
 "24
 } 0
-"32 /home/reyez/Documents/mplabProjects/PIC18F57Q43-SIMULATOR.X/main.c
+"38 /home/reyez/Documents/mplabProjects/PIC18F-SIMULATOR/main.c
 [v _putch putch `(v  1 e 1 0 ]
 {
 [v putch@data data `uc  1 a 1 wreg ]
 [v putch@data data `uc  1 a 1 wreg ]
 [v putch@data data `uc  1 a 1 0 ]
-"37
+"43
 } 0
-"26
+"32
 [v _init_uart init_uart `(v  1 e 1 0 ]
 {
-"30
+"36
 } 0

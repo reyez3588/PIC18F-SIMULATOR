@@ -7,14 +7,7 @@
 # 1 "/root/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8/pic/include/language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
-
-
-
-
-
-
-
-
+# 11 "main.c"
 # 1 "/root/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8/pic/include/xc.h" 1 3
 # 18 "/root/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8/pic/include/xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -28614,7 +28607,7 @@ __attribute__((__unsupported__("The READTIMER" "3" "() macro is not available wi
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "/root/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8/pic/include/xc.h" 2 3
-# 10 "main.c" 2
+# 12 "main.c" 2
 # 1 "/opt/microchip/xc8/v2.32/pic/include/c99/stdio.h" 1 3
 # 24 "/opt/microchip/xc8/v2.32/pic/include/c99/stdio.h" 3
 # 1 "/opt/microchip/xc8/v2.32/pic/include/c99/bits/alltypes.h" 1 3
@@ -28753,19 +28746,23 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 11 "main.c" 2
+# 13 "main.c" 2
 
-uint32_t myVar;
+
+
+
+
 float myFloat;
+
 
 void init_uart(void);
 
 void main(void) {
     init_uart();
-    printf("Yeah...");
+    printf("Prueba de impresión");
     while(1)
         continue;
-    return;
+
 }
 
 
