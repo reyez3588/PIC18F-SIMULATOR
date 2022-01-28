@@ -13,7 +13,7 @@
 
 
 //esto tiene que aparecer en el repo
-
+// esta linea debe aparecer en su repo local
 uint32_t myVar;
 float myFloat;
 int32_t m;
