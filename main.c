@@ -13,7 +13,7 @@
 
 
 //uint32_t myVar;
-//float myFloat;
+float myFloat;
 //int32_t m;
 
 void init_uart(void);
