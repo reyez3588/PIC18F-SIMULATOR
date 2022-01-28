@@ -14,9 +14,9 @@
 
 //esto tiene que aparecer en el repo
 
-//uint32_t myVar;
+uint32_t myVar;
 float myFloat;
-//int32_t m;
+int32_t m;
 
 void init_uart(void);
 
