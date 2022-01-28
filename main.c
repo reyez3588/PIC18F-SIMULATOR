@@ -1,6 +1,8 @@
 /*
  * File:   main.c
- * Author: root
+ * Author: MIEC Jesús Reyes Gómez
+ * Descripción: En este programa se puede imprimir en consola utilizando el 
+ *              comando printf()
  *
  * Created on January 27, 2022, 9:55 PM
  */
@@ -18,7 +20,7 @@ void init_uart(void);
 
 void main(void) {
     init_uart();
-    printf("Yeah...");
+    printf("Prueba de impresión");
     while(1)
         continue;
     //return;
