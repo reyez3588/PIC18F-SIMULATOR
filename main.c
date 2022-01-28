@@ -12,9 +12,9 @@
 #include <stdio.h>
 
 
-uint32_t myVar;
-float myFloat;
-int32_t m;
+//uint32_t myVar;
+//float myFloat;
+//int32_t m;
 
 void init_uart(void);
 
