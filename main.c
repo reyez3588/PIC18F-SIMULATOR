@@ -12,10 +12,8 @@
 #include <stdio.h>
 
 
-//esto tiene que aparecer en el repo
-// esta linea debe aparecer en su repo local
 uint32_t myVar;
-float myFloat;
+float myVariableparaGIT;
 int32_t m;
 
 void init_uart(void);
